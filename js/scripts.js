@@ -8,4 +8,6 @@ $(function () {
 	$('#modal').on('click',function () {
 		$('#modal').modal('hide');
 	});
+	$('[data-toggle="popover"]').popover();
 })
+
